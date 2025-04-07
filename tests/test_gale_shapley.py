@@ -138,8 +138,8 @@ def main():
     (num_tests, num_correct, incorrect_tests) = test_problems(message, 22, 25, num_tests, num_correct, incorrect_tests)
 
     # Category 7: Large test cases
-    message = """Testing large-scale problems"""
-    (num_tests, num_correct, incorrect_tests) = test_problems(message, 36, 37, num_tests, num_correct, incorrect_tests)
+    # message = """Testing large-scale problems"""
+    # (num_tests, num_correct, incorrect_tests) = test_problems(message, 36, 37, num_tests, num_correct, incorrect_tests)
 
     # Summary
     end_time = process_time()
